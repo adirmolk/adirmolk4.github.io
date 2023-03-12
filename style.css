@@ -1,0 +1,90 @@
+.nav-bar-container span {
+  color: lightgrey;
+}
+.nav-bar-container span:nth-child(3) {
+  color: white;
+}
+.nav-bar-container img:nth-child(1) {
+  width: 30px;
+  height: 30px;
+}
+.nav-bar-container img:nth-child(2) {
+  width: 30px;
+  height: 20px;
+}
+
+.main-container .inner-left-container .flight-details-container {
+  margin-bottom: solid 1px lightgray;
+}
+.main-container .inner-left-container .flight-details-container span:nth-child(1) {
+  font-weight: bold;
+}
+.main-container .inner-left-container .flight-details-container a {
+  color: darkblue;
+}
+.main-container .inner-left-container .flight-details-container svg {
+  height: 100px;
+  width: 100px;
+}
+.main-container .inner-left-container input {
+  width: 100%;
+  border: 2px solid lightgray;
+  padding: 10px;
+}
+.main-container .inner-left-container .passenger-details-container .row .input-details {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-container .inner-left-container .billing-information-container .row .input-details {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-container .inner-left-container .billing-information-container .credit-card-container img {
+  height: 30px;
+  width: 30px;
+}
+.main-container .inner-left-container .billing-information-container .credit-card-container img:nth-child(1) {
+  height: 20px;
+  width: 35px;
+}
+.main-container .inner-left-container .billing-information-container .credit-card-container img:nth-child(2) {
+  height: 20px;
+  width: 35px;
+}
+.main-container .inner-left-container .billing-information-container .credit-card-container img:nth-child(3) {
+  height: 20px;
+  width: 35px;
+}
+.main-container .inner-left-container .billing-information-container .credit-card-container img:nth-child(4) {
+  height: 20px;
+  width: 35px;
+}
+.main-container .inner-left-container .payment-information-container span {
+  color: lightgray;
+}
+.main-container .inner-left-container .payment-information-container button {
+  padding: 20px;
+  background-color: #FF6C2D;
+  border: 0px;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.main-container .values-container i {
+  color: #FF6C2D;
+  margin-right: 7px;
+}
+
+.bottom-nav-bar img {
+  width: 400px;
+  height: 300px;
+}
+
+.footer-container span {
+  color: lightgray;
+}
+.footer-container span :nth-child(1) {
+  color: white;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,154 @@
+// nav bar start
+.nav-bar-container{
+    span{
+        color: lightgrey;
+        &:nth-child(3){
+            color:white
+        }
+    }
+ img{
+    &:nth-child(1){
+        width: 30px;
+        height: 30px;
+    }
+    &:nth-child(2){
+        width: 30px;
+        height: 20px;
+    }
+    
+ }
+}
+// nav bar end
+
+// main container start
+.main-container{
+
+// inner left container start
+.inner-left-container{
+
+    // flight details container start
+    .flight-details-container{
+        margin-bottom: solid 1px lightgray;
+        span{
+            &:nth-child(1){
+                font-weight: bold;
+            }
+        }
+        a{
+            color:darkblue ;
+        }
+        svg{
+            height: 100px;
+            width: 100px;
+        }
+
+    }
+// flight details container end
+
+// input start
+    input{
+        width: 100%;
+        border: 2px solid lightgray;
+        padding: 10px;
+    }
+// input end
+
+// passenger details container start
+    .passenger-details-container{
+        .row{
+            .input-details{
+            margin-top:10px;
+            margin-bottom: 10px;
+            }
+        }
+    
+    }
+// passenger details container end
+
+// billing information container start
+    .billing-information-container{
+        .row{
+            .input-details{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            }
+        }
+
+    // credit card container start
+    .credit-card-container{
+        img{
+            height: 30px;
+            width: 30px;
+
+            &:nth-child(1){
+                height: 20px;
+                width: 35px;
+            }
+            &:nth-child(2){
+                height: 20px;
+                width: 35px;
+            }
+            &:nth-child(3){
+                height: 20px;
+                width: 35px;
+            }
+            &:nth-child(4){
+                height: 20px;
+                width: 35px;
+            }
+        }
+       }
+    //    credit card container end
+
+    }
+// billing formation container end
+
+// payment information container start
+    .payment-information-container{
+        span{
+            color: lightgray;
+        }
+       button{
+        padding: 20px;
+        background-color: #FF6C2D;
+        border: 0px;
+        color: white;
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-top: 20px;
+       }
+    }
+// payment information container end
+}
+// values contianer start
+    .values-container{
+        i{
+            color: #FF6C2D;
+            margin-right: 7px;
+        }
+    }
+// values contianer end
+
+
+// inner-left-container end   
+}
+// main container end 
+
+.bottom-nav-bar{
+    img{
+       width:400px;
+       height: 300px;
+        
+    }
+}
+// footer container start
+.footer-container{
+    span{
+        :nth-child(1){
+            color: white;
+            font-weight: bold;
+        }
+        color: lightgray;  
+    }
+}
+// footer container

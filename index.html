@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adantrip</title>
+  </head>
+  <body>
+    <!-- nav bar start -->
+    <div class="nav-bar-container py-3 text-bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-6 d-flex align-items-center">
+            <h3>Adantrip</h3>
+          </div>
+          <div
+            class="col-5 d-lg-flex d-none align-items-center justify-content-between"
+          >
+            <span>Hotels</span>
+            <span>Rooms</span>
+            <span>Flights</span>
+            <span>Cars</span>
+            <span>Experiences</span>
+          </div>
+          <i
+            class="fa-solid fa-bars col-md-1 col-6 d-lg-none d-flex align-items-center justify-content-md-start justify-content-end"
+          ></i>
+          <div
+            class="col-lg-3 col-6 offset-lg-2 offset-3 d-md-flex d-none align-items-center justify-content-around"
+          >
+            <span>USD</span>
+            <img src="./assets/united-states-img.png" alt="" />
+            <div>
+              <img src="./assets/user-profile.png" alt="" />
+              <span> My Account </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nav bar end -->
+
+    <!-- main-container start -->
+    <div class="main-container container">
+      <div class="row">
+        <!-- inner left container start -->
+        <div class="inner-left-container col-lg-8">
+          <!-- Flight Details Container start -->
+          <div class="flight-details-container border-bottom">
+            <div class="row">
+              <div class="col-md-6 d-flex flex-column mt-5">
+                <span class="mb-1"
+                  >Buenos Aires <i class="fa-solid fa-arrow-right"></i> Ile de
+                  France</span
+                >
+                <span class="mb-3">Round Trip, Economy, 1 passanger</span>
+                <span>Depart: Aug 15, 2019</span>
+                <span class="mb-3">return: Aug 16, 2019</span>
+                <a class="mb-3"
+                  >FLIGHT DETAILS <i class="fa-solid fa-chevron-down"></i
+                ></a>
+              </div>
+              <div
+                class="col-md-6 d-md-flex d-none justify-content-end align-items-center"
+              >
+                <svg
+                  id="logosandtypes_com"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 150 150"
+                >
+                  <path d="M0 0h150v150H0V0z" fill="none" />
+                  <path
+                    d="M32.9 102l-25 25.2c86.8 0 107.2-20.4 119.2-48.2l10-26.1C107.9 53.7 63.8 71 32.9 102"
+                    fill="#db002f"
+                  />
+                  <path
+                    d="M91.2 43L63.1 71.5c26.7-19.2 53.3-30.8 79.9-33.7l6.4-16.9c-39.3 0-44.6 8.5-58.2 22.1"
+                    fill="#fdc613"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!-- Flight Details Container end -->
+
+          <!-- Passenger Details Container start -->
+          <div class="passenger-details-container mt-3 border-bottom">
+            <h3 class="mb-3">Enter Passenger Details</h3>
+            <span>Passenger 1</span>
+            <div class="row">
+              <div class="input-details col-lg-4">
+                <input type="number" placeholder="Month" />
+              </div>
+              <div class="input-details col-lg-1">
+                <input type="number" placeholder="Day" />
+              </div>
+              <div class="input-details col-lg-1">
+                <input type="number" placeholder="Year" />
+              </div>
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="Gender" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="First Name" />
+              </div>
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="Last Name" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="Passport Serial" />
+              </div>
+              <div class="input-details mb-3 col-lg-6">
+                <input type="text" placeholder="Citizenship" />
+              </div>
+            </div>
+          </div>
+          <!-- Passenger Details Container end  -->
+
+          <!-- Billing Information Container start -->
+          <div class="billing-information-container border-bottom mt-3">
+            <h3>Enter Billing Information</h3>
+            <span>Billing Address</span>
+            <div class="row">
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="Street(line 1)" />
+              </div>
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="Street(line 2)" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="Postal Code" />
+              </div>
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="City" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="State/Region" />
+              </div>
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="Select Country" />
+              </div>
+            </div>
+            <span>Card Details</span>
+            <div class="row">
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="Name on Card" />
+              </div>
+              <div class="input-details col-lg-6">
+                <input type="text" placeholder="Credit/Debit Card Number" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-details col-lg-2">
+                <input type="number" placeholder="Month" />
+              </div>
+              <div class="input-details col-lg-2">
+                <input type="number" placeholder="Year" />
+              </div>
+              <div class="input-details mb-3 col-lg-2">
+                <input type="number" placeholder="Security Code" />
+              </div>
+
+              <!-- credit card container start -->
+              <div
+                class="credit-card-container mb-3 col-lg-5 offset-lg-1 d-flex justify-content-lg-between justify-content-end align-items-center"
+              >
+                <img
+                  class="m-1"
+                  src="./assets/mastercard.png"
+                  alt="mastercard logo"
+                />
+                <img class="m-1" src="./assets/Visa.png" alt="visa logo" />
+                <img
+                  class="m-1"
+                  src="./assets/Visa-electronic.png"
+                  alt="visa electronic logo"
+                />
+                <img
+                  class="m-1"
+                  src="./assets/discover new.png"
+                  alt="discover logo"
+                />
+                <img
+                  class="m-1"
+                  src="./assets/maestro.png"
+                  alt="maestro logo"
+                />
+                <img
+                  class="m-1"
+                  src="./assets/american express logo.png"
+                  alt="american express logo"
+                />
+              </div>
+              <!-- credit card container end -->
+            </div>
+          </div>
+          <!-- Billing Information Container end -->
+
+          <!-- Payment Information Container start -->
+          <div class="payment-information-container bordttom py-4">
+            <div class="row">
+              <div class="col-lg-8 d-flex flex-column justify-content-center">
+                <h5>Total</h5>
+                <span
+                  >By clicking book now button you agree with terms and
+                  conditionals and money back gurantee. Thank you for trusting
+                  our service.</span
+                >
+              </div>
+              <div
+                class="col-lg-4 mt-2 d-flex align-items-center justify-content-start justify-content-lg-end"
+              >
+                <h2>$1907.68</h2>
+              </div>
+            </div>
+            <button class="w-100">BOOK NOW</button>
+          </div>
+          <!-- Payment Information Container end -->
+        </div>
+        <!-- inner-left-contianer end -->
+
+        <!-- inner right container start -->
+        <div class="inner-right-container col-lg-4">
+          <!-- Booking Summary Container start -->
+          <div class="boooking-summary-contianer mt-5 p-3 border">
+            <div class="container d-flex flex-column">
+              <h5>Booking Summary</h5>
+              <span>Round Trip, Economy, 1 passanger</span>
+              <span>Depart: Aug 15, 2019</span>
+              <span>Depart: Aug 16, 2019</span>
+            </div>
+          </div>
+          <!-- Booking Summary Container end -->
+
+          <!-- Charges Container start -->
+          <div class="charges-container mt-2 p-3 border">
+            <div class="container">
+              <h5>Charges</h5>
+              <div class="row border-bottom">
+                <div class="col-6 d-flex flex-column mb-2">
+                  <span>1 passanger</span>
+                  <span>Economy</span>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                  <span class="d-flex align-items-center">$1907.68</span>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-6">
+                  <span>Total</span>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                  <span>$1907.68</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Charges Container end -->
+
+          <!-- values Container start -->
+          <div class="values-container border mt-2 mb-5 p-3">
+            <div class="container">
+              <div class="values-info-container d-flex">
+                <i class="fa-solid fa-check py-1"></i>
+                <div>
+                  <h5>Manage your bookings!</h5>
+                  <span
+                    >youre in control of your booking - no registration
+                    required</span
+                  >
+                </div>
+              </div>
+              <div class="values-info-container d-flex">
+                <i class="fa-solid fa-check py-1"></i>
+                <div>
+                  <h5>customer support available 24/7 worldwide!</h5>
+                  <span
+                    >website and customer support in english and 41 other
+                    languages</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- values Container end -->
+        </div>
+        <!--  inner right contianer end-->
+      </div>
+    </div>
+    <!-- main contianer end -->
+
+    <!-- Bottom Nav Bar start -->
+    <div
+      class="bottom-nav-bar text-lg-start text-center text-bg-secondary border-top p-3"
+    >
+      <div class="container">
+        <div class="row d-flex align-items-lg-start justify-content-center">
+          <div class="col-lg-3">
+            <h2>Adantrip</h2>
+            <span
+              >Adantrip is one of thte most globaly known and trustworthy
+              company for safe travels.</span
+            ><br />
+            <span
+              >We offer the best customer support acrros all the world. Thank
+              you for choosing Adantrip, we will be glad to see you again.</span
+            >
+          </div>
+          <div class="col-lg-2 d-flex flex-column mt-2">
+            <h5>Travel Mate</h5>
+            <span>About Travel Mate</span>
+            <span>mobile app</span>
+            <span>customer support</span>
+            <span>Advertising</span>
+            <span>jobs</span>
+            <span>privecy policy</span>
+            <span>terms of use</span>
+          </div>
+          <div class="col-lg-2 d-flex flex-column mt-2">
+            <h5>explore</h5>
+            <span>countries</span>
+            <span>regions</span>
+            <span>cities</span>
+            <span>airports</span>
+            <span>hotels</span>
+            <span>places of intrest</span>
+          </div>
+          <div class="col-lg-2 d-flex flex-column mt-2">
+            <h5>book</h5>
+            <span>Apartments</span>
+            <span>resort</span>
+            <span>villas</span>
+            <span>hostels</span>
+            <span>b&bs</span>
+            <span>guesethouses</span>
+            <span>hotel chains</span>
+          </div>
+          <div class="col-3 img-fluid d-flex justify-content-center">
+            <img src="./assets/ads.png" alt="ads" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bottom Nav Bar end -->
+
+    <!-- Footer container start -->
+    <div class="footer-container text-bg-dark py-3">
+      <div class="container">
+        <div class="row d-flex flex-lg-row flex-column align-items-center">
+          <div class="col-6">
+            <span
+              >Copyright © 2018 <span>Adantrip</span>. All rights
+              reserved.</span
+            >
+          </div>
+          <div
+            class="col-6 d-flex justify-content-lg-end justify-content-between mt-2 align-items-center"
+          >
+            <i class="fa-brands fa-facebook px-1"></i>
+            <i class="fa-brands fa-google px-1"></i>
+            <i class="fa-brands fa-twitter px-1"></i>
+            <i class="fa-brands fa-youtube px-1"></i>
+            <i class="fa-brands fa-instagram px-1"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer container end-->
+  </body>
+</html>
